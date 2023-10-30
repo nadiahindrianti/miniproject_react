@@ -1,5 +1,6 @@
 import React, { useState } from 'react';
 import { useNavigate } from 'react-router-dom';
+import { Link } from "react-router-dom";
 
 function FormLogin() {
   const [email, setEmail] = useState('');
@@ -65,7 +66,11 @@ function FormLogin() {
                   onChange={(e) => setPassword(e.target.value)}
                 />
               </div>
-              <button type="submit" className="bg-blue-500 hover:bg-blue-700 text-white font-bold py-2 px-4 rounded">Login</button>
+              <Link to={"/dasboard_admin"}>
+                    <button className="font-medium text-blue-600 hover:underline dark:text-blue-500">
+                      Login here
+                    </button>
+              </Link>
             </form>
             {errorMessage && <p className="text-red-500 mt-2">{errorMessage}</p>}
           </div>

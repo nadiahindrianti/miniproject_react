@@ -9,7 +9,7 @@ function Jadwallabroom() {
         <Navbar/>
         <div className="flex border-l-indigo-500">
           <SideNav/>
-            <Calendar label={'Jadwal Akses Lab Room'}/>
+            <Calendar label={'Lab Room'}/>
           </div>
         <Footer/>
       </div>

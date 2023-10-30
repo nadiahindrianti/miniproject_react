@@ -5,8 +5,8 @@ import {logo} from '../assets'
 function Navbar({className}) {
   return (
     <div className='relative '>
-      <div className={`nav w-full flex p-3 text-white bg-[#008B8B] justify-between font-['Montserrat'] text-sm ${className && className}`}>
-      <div className="img-logo ps-8">
+      <div className={`nav w-full flex p-3 text-white bg-[#008B8B] justify-between font-bold text-sm ${className && className}`}>
+      <div className="img-logo ps-10">
         <NavLink to={'/'}>
         <img src={logo} alt="logocreativehub" className='w-14'/>
         </NavLink>
@@ -25,7 +25,7 @@ function Navbar({className}) {
           <NavLink to='/Pengajuan'>Pengajuan</NavLink>
         </div>
         <div className="li px-5 hover:text-amber-400 active:text-amber-400">
-          <NavLink to='/QA'>Q & A</NavLink>
+          <NavLink to='/Chat'>Chat</NavLink>
         </div>
         <div className="li px-5 hover:text-amber-400 active:text-amber-400">
           <NavLink to='/Login'>Login</NavLink>

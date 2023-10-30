@@ -1,15 +1,16 @@
 import React from 'react'
-import { Navbar, Footer } from '../components'
+import { Footer } from '../components'
+import SideAdmin from '../components/admin/SideAdmin'
 
-function Pengajuan() {
+function dasboard_admin() {
     return (
       <div className='bg-[#FAFAFF]'>
-        <Navbar/>
         <div className="flex border-l-indigo-500">
+        <SideAdmin/>
           </div>
         <Footer/>
       </div>
     )
   }
   
-  export default Pengajuan
+  export default dasboard_admin

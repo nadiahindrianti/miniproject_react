@@ -9,7 +9,7 @@ function Jadwalpracticaltools() {
         <Navbar/>
         <div className="row flex border-l-indigo-500">
           <SideNav/>
-          <Calendar label={'Jadwal Akses Practical Tools'}/>
+          <Calendar label={'Practical Tools'}/>
           </div>
         <Footer/>
       </div>

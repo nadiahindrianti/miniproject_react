@@ -5,7 +5,7 @@ import  {AiOutlineSearch} from 'react-icons/ai'
 const Hero = () => {
   return (
     <div className='w-full bg-white py-24'>
-        <div className='md:max-w-[1480px] m-auto grid md:grid-cols-2 max-w-[900px]  px-4 md:px-8'>
+        <div className='md:max-w-[1480px] m-auto grid md:grid-cols-2 max-w-[900px]  px-4 md:px-12'>
             
             <div className='flex flex-col justify-start gap-4'>
                 <p className='py-2 text-2xl text-[#31587B] font-medium'>Let's Start</p>

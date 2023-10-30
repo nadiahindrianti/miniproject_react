@@ -1,10 +1,8 @@
 import Navbar from "./Navbar";
 import Hero from "./Hero";
-import Courses from "./Views";
-
+import Courses from "./Courses";
 import Footer from "./Footer";
 
 
 
-
-export {Navbar,Hero,Courses,Footer}
+export {Navbar, Hero, Courses, Footer}
